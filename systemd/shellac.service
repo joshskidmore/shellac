@@ -1,0 +1,11 @@
+[Unit]
+Description=shellac
+PartOf=xsession.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/skidmore/repos/joshskidmore/shellac
+ExecStart=/home/skidmore/repos/joshskidmore/shellac/bin/shellac-daemon.py
+
+[Install]
+WantedBy=xsession.target
