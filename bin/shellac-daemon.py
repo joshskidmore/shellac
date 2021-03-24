@@ -109,7 +109,7 @@ def main( argv ):
 
   prog = argv.pop(0)
   host = '127.0.0.1'
-  port = 8000
+  port = 8783
 
   if len(argv) >= 2:
     host, port = (argv.pop(0), int(argv.pop(0)))
